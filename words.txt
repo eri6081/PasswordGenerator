@@ -129,7 +129,7 @@ Shawarma
 Gyros
 Tzatziki
 Hummus
-Baba Ganoush
+Baba 
 Taboulé
 Fattoush
 Dolma
@@ -150,8 +150,8 @@ Limonade
 Cola
 Fanta
 Sprite
-Ginger Ale
-Root Beer
+Ginger 
+Root 
 Wasser
 Mineralwasser
 Sprudel
@@ -168,36 +168,36 @@ Cocktail
 Margarita
 Mojito
 Daiquiri
-Pina Colada
-Mai Tai
+Pina 
+Mai 
 Martini
 Negroni
-Gin Tonic
-Whiskey Sour
-Old Fashioned
+Gin 
+Whiskey 
+Old 
 Manhattan
-Bloody Mary
+Bloody 
 Cosmopolitan
-Moscow Mule
-Tequila Sunrise
+Moscow 
+Tequila 
 Caipirinha
-Long Island Iced Tea
+Long   
 Zombie
-Singapore Sling
-Tom Collins
-Rum Punch
-Dark and Stormy
+Singapore 
+Tom 
+Rum 
+Dark  
 Hurricane
 Sazerac
 Vesper
 Boulevardier
 Sidecar
-French 75
-Pisco Sour
+French 
+Pisco 
 Paloma
-Cuba Libre
+Cuba 
 Bellini
-Kir Royale
+Kir 
 Champagner
 Prosecco
 Cava
@@ -235,7 +235,7 @@ Cointreau
 Drambuie
 Frangelico
 Galliano
-Grand Marnier
+Grand 
 Jägermeister
 Kahlua
 Limoncello
@@ -244,7 +244,7 @@ Ouzo
 Pernod
 Sambuca
 Strega
-Triple Sec
+Triple 
 Vermouth
 Curacao
 Anisette
@@ -264,7 +264,7 @@ Buttermilch
 Joghurt
 Quark
 Sauerrahm
-Crème Fraîche
+Crème 
 Mascarpone
 Ricotta
 Mozzarella
@@ -313,7 +313,7 @@ Kohlrabi
 Kopfsalat
 Lollo Rosso
 Mangold
-Pak Choi
+Pak 
 Petersilienwurzel
 Postelein
 Radicchio
@@ -399,7 +399,7 @@ Sopes
 Tlacoyo
 Ceviche
 Anticuchos
-Papa Rellena
+Papa 
 Salchipapa
 Chimichanga
 Pozole
@@ -413,7 +413,7 @@ Gordita
 Chalupa
 Pambazo
 Molote
-Cochinita Pibil
+Cochinita 
 Barbacoa
 Carnitas
 Al Pastor
@@ -426,19 +426,19 @@ Lomo
 Costilla
 Chuleta
 Bistec
-Carne Asada
+Carne 
 Tinga
-Ropa Vieja
+Ropa 
 Fricase
 Lechon
 Chicharron
 Arequipe
-Dulce de Leche
+Dulce  
 Manjar
 Natilla
 Flan
-Tres Leches
-Arroz con Leche
+Tres 
+Arroz  
 Polvoron
 Mazapan
 Churros
@@ -498,7 +498,7 @@ Puerh
 Rooibos
 Mate
 Kakao
-Heiße Schokolade
+Heiße 
 Chai
 Matcha
 Latte
@@ -506,13 +506,13 @@ Cappuccino
 Espresso
 Macchiato
 Mocha
-Flat White
+Flat 
 Americano
 Cortado
 Affogato
 Limonade
 Cola
-Ginger Ale
+Ginger 
 Root Beer
 Eistee
 Frappé
@@ -538,8 +538,8 @@ Manuka Honig
 Lavendelhonig
 Kastanienhonig
 Heidehonig
-Klee Honig
+Klee 
 Lindenhonig
 Orangenblütenhonig
 Eukalyptushonig
-Mandelhon
+Mandelhon   
