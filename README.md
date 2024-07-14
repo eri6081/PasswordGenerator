@@ -2,74 +2,68 @@
 
 ## Inhaltsverzeichnis
 
-### 1. Installation
-
-### 2. Verwendung
-
-### 3. Beispiele
-
-### 4. Technologien
-
-### 5. About this Projekt
-
+1. [Installation](#1-installation)
+2. [Verwendung](#2-verwendung)
+3. [Beispiele](#3-beispiele)
+4. [Technologien](#4-technologien)
+5. [Über dieses Projekt](#5-über-dieses-projekt)
 
 ## Contributors: Dominik Schweizer & Eris Jakupi
 
-
-
 ## 1. Installation
 
-Um dieses Skript auszuführen muss man folgende Schritte befolgen: 
+Um dieses Skript auszuführen, folgen Sie bitte diesen Schritten:
 
-1. Repository clonen oder als .zip herunterladen
-2. Nachdem muss man schauen, dass WSL installiert ist und kann dann das skript mit "bash Passwortgenerator.sh" ausführen und muss dabei schauen, dass man diesen Befehl in einem wsl-Terminal ausführt.
+1. Repository klonen oder als .zip herunterladen.
+2. Stellen Sie sicher, dass WSL installiert ist. Führen Sie dann das Skript mit `bash Passwortgenerator.sh` in einem WSL-Terminal aus.
 
 ## 2. Verwendung
 
-Sobald man den Befehl "bash Passwortgenerator.sh" ausgeführt hat, kann man dabei unter 3 Arten von Passwörter sich entscheiden. 
+Nach dem Ausführen des Befehls `bash Passwortgenerator.sh` können Sie zwischen drei Arten von Passwörtern wählen:
+
 1. Einfaches Passwort
 2. Komplexes Passwort
-3. Horse-Staple Passwort 
+3. Horse-Staple Passwort
 
-## 3. Beispiele 
+## 3. Beispiele
 
-1. Fall (Einfaches Passwort generieren): 
+### Beispiel 1: Einfaches Passwort generieren
 
+```
 Bitte wähle eine Option:
-          1) Einfaches Passwort generieren
-          2) Komplexes Passwort generieren
-          3) Horse-staple Passwort generieren
+  1) Einfaches Passwort generieren
+  2) Komplexes Passwort generieren
+  3) Horse-staple Passwort generieren
 Auswahl: 1
 Generated Password: ErdbeereBanane7998169087026581
+```
 
+### Beispiel 2: Komplexes Passwort generieren
 
-2. Fall (Komplexes Passwort): 
+```
 Bitte wähle eine Option:
-          1) Einfaches Passwort generieren
-          2) Komplexes Passwort generieren
-          3) Horse-staple Passwort generieren
+  1) Einfaches Passwort generieren
+  2) Komplexes Passwort generieren
+  3) Horse-staple Passwort generieren
 Auswahl: 2
 Generated Password: CQGNUll+OAmnLkDH+bZIRPBA
+```
 
-3. Fall (Horse-Staple Passwort):
+### Beispiel 3: Horse-Staple Passwort generieren
 
+```
 Bitte wähle eine Option:
-          1) Einfaches Passwort generieren
-          2) Komplexes Passwort generieren
-          3) Horse-staple Passwort generieren
+  1) Einfaches Passwort generieren
+  2) Komplexes Passwort generieren
+  3) Horse-staple Passwort generieren
 Auswahl: 3
 Generated Password: ErdbeereBananeOrangeApfel
+```
 
-##  4. Technologien
+## 4. Technologien
 
-![alt text](image.png)
+![Technologien](image.png)
 
-## About this Projekt
-In diesem Projekt haben wir die Aufgabenstellung erhalten, ein Projekt zu erstellen welches auf bash basiert. Dominik und ich haben uns dazu entschieden einen Passwortgenerator in bash zu scripten, dieser Generator ist in der Lage einfache, komplexere und  horse-staple Passwörter zu generieren. 
+## 5. Über dieses Projekt
 
-
-### 5. About this Projekt
-
-
-
-
+In diesem Projekt haben wir die Aufgabe erhalten, ein Bash-basiertes Projekt zu erstellen. Dominik und ich haben uns dazu entschieden, einen Passwortgenerator in Bash zu entwickeln. Dieser Generator kann einfache, komplexe und Horse-Staple Passwörter generieren.
