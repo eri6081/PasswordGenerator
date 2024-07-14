@@ -44,12 +44,14 @@ Generated Password: ErdbeereBanane7998169087026581
 
 
 2. Fall (Komplexes Passwort): 
+   
 Bitte wähle eine Option:
           1) Einfaches Passwort generieren
           2) Komplexes Passwort generieren
           3) Horse-staple Passwort generieren
 Auswahl: 2
 Generated Password: CQGNUll+OAmnLkDH+bZIRPBA
+
 
 3. Fall (Horse-Staple Passwort):
 
@@ -64,12 +66,5 @@ Generated Password: ErdbeereBananeOrangeApfel
 
 ![alt text](image.png)
 
-## About this Projekt
-In diesem Projekt haben wir die Aufgabenstellung erhalten, ein Projekt zu erstellen welches auf bash basiert. Dominik und ich haben uns dazu entschieden einen Passwortgenerator in bash zu scripten, dieser Generator ist in der Lage einfache, komplexere und  horse-staple Passwörter zu generieren. 
-
-
-### 5. About this Projekt
-
-
-
-
+## 5. About this Projekt
+In diesem Projekt haben wir die Aufgabenstellung erhalten, ein Projekt zu erstellen welches auf bash basiert. Dominik und ich haben uns dazu entschieden einen Passwortgenerator in bash zu scripten, dieser Generator ist in der Lage einfache, komplexere und  horse-staple Passwörter zu generieren.
