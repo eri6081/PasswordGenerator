@@ -7,6 +7,7 @@
 3. [Beispiele](#3-beispiele)
 4. [Technologien](#4-technologien)
 5. [Über dieses Projekt](#5-über-dieses-projekt)
+6. [Demonstrations-Video](#6-demonstrations-video)
 
 ## Contributors: Dominik Schweizer & Eris Jakupi
 
@@ -89,3 +90,10 @@ bash password_generator.sh -w 4
 ## 5. Über dieses Projekt
 
 In diesem Projekt haben wir die Aufgabe erhalten, ein Bash-basiertes Projekt zu erstellen. Dominik und ich haben uns dazu entschieden, einen Passwortgenerator in Bash zu entwickeln. Dieser Generator kann einfache, komplexe und Horse-Staple Passwörter generieren.
+
+
+## 6. Demonstrations-Video 
+
+Das Demo-Video findet man unter folgendem Pfad in unserem Repository.
+
+ => (https://github.com/eri6081/PasswordGenerator/tree/Main/Demo-Video)
