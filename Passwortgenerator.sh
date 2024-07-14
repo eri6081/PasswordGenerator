@@ -24,7 +24,7 @@ function generate_simple_password() {
         password+="${words[$((RANDOM % ${#words[@]}))]}"
     done
     for ((i=0; i<$num_count; i++)); do
-        password+="$((RANDOM % 90 + 10))"
+        password+="$((RANDOM % 9 + 1))"
     done
     echo "$password"
 }
