@@ -29,7 +29,7 @@ Nach dem Ausführen des Befehls `bash Passwortgenerator.sh` können Sie zwischen
 
 ### Beispiel 1: Einfaches Passwort generieren
 
-```
+```bash
 Bitte wähle eine Option:
   1) Einfaches Passwort generieren
   2) Komplexes Passwort generieren
@@ -40,7 +40,7 @@ Generated Password: ErdbeereBanane7998169087026581
 
 ### Beispiel 2: Komplexes Passwort generieren
 
-```
+```bash
 Bitte wähle eine Option:
   1) Einfaches Passwort generieren
   2) Komplexes Passwort generieren
@@ -51,13 +51,33 @@ Generated Password: CQGNUll+OAmnLkDH+bZIRPBA
 
 ### Beispiel 3: Horse-Staple Passwort generieren
 
-```
+```bash
 Bitte wähle eine Option:
   1) Einfaches Passwort generieren
   2) Komplexes Passwort generieren
   3) Horse-staple Passwort generieren
 Auswahl: 3
 Generated Password: ErdbeereBananeOrangeApfel
+```
+
+### Befehlsbeispiele:
+
+Ein einfaches Passwort mit 2 Wörtern und 4 Zahlen:
+
+```bash
+bash password_generator.sh -w 2 -n 4
+```
+
+Ein komplexes Passwort mit einer Länge von 20 Zeichen, mit Großbuchstaben, Kleinbuchstaben und Sonderzeichen:
+
+```bash
+bash password_generator.sh -c 20 -u -l -s
+```
+
+Ein Horse-staple Passwort mit 4 Wörtern:
+
+```bash
+bash password_generator.sh -w 4
 ```
 
 ## 4. Technologien
