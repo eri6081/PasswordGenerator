@@ -4,9 +4,9 @@ function EingabeNutzer {
     echo "Bitte wähle eine Option:
           1) Einfaches Passwort generieren
           2) Komplexes Passwort generieren"
-    read -p "Auswahl: " userinput 
+    read -p "Auswahl: " userinput
 
-    if [ $userinput -eq 1 ]; then 
+    if [ $userinput -eq 1 ]; then
         EinfachesPasswort
     elif [ $userinput -eq 2 ]; then
         KomplexesPasswort
@@ -16,8 +16,18 @@ function EingabeNutzer {
 }
 
 function EinfachesPasswort {
-    words=("Apfel" "Banane" "Kirsche" "Orange" "Erdbeere" "Himbeere" "Blaubeere")
-    password="${words[$((RANDOM % ${#words[@]}))]}$((RANDOM%9000+1000))"
+    local word_file="words.txt"
+    local words=()
+
+    while IFS= read -r line; do
+        words+=("$line")
+    done < "$word_file"
+
+    local words=${words[$((RANDOM % ${#words[@]}))]}
+
+    local numbers=$(( RANDOM % 90 + 10 ))
+
+    local password="${numbers}${words}"
     echo "Einfaches Passwort: $password"
 }
 
