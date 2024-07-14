@@ -17,13 +17,13 @@ usage() {
 function generate_simple_password() {
     local word_count=$1
     local num_count=$2
-    local words=("Apfel" "Banane" "Kirsche" "Orange" "Erdbeere" "Himbeere" "Blaubeere")
+    local words=("Apfel" "Banane" "Kirsche" "Orange" "Erdbeere" "Himbeere" "Blaubeere" "Schule" "BBW")
     local password=""
     for ((i=0; i<$word_count; i++)); do
         password+="${words[$((RANDOM % ${#words[@]}))]}"
     done
     for ((i=0; i<$num_count; i++)); do
-        password+="$((RANDOM%9000+1000))"
+        password+="$((RANDOM%90+10))"
     done
     echo "$password"
 }
@@ -59,7 +59,7 @@ if [[ $# -eq 0 ]]; then
 
     case $userinput in
         1)
-            password=$(generate_simple_password 2 4)
+            password=$(generate_simple_password 2 2)
             ;;
         2)
             include_uppercase=1

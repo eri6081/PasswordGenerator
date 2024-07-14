@@ -62,6 +62,8 @@ Generated Password: ErdbeereBananeOrangeApfel
 
 ### Befehlsbeispiele:
 
+Die Beispiele kann man im File ändern und so beliebige Passwörter generieren lasse.
+
 Ein einfaches Passwort mit 2 Wörtern und 4 Zahlen:
 
 ```bash
