@@ -1,4 +1,4 @@
-#!/usr/bin/bash 
+#!/usr/bin/bash
 
 # Hilfefunktion
 usage() {
@@ -12,23 +12,39 @@ usage() {
   echo "  -h, --help           Display this help message"
 }
 
+# Argumente parsen
+while [[ "$1" != "" ]]; do
+    case $1 in
+        -w | --words )         shift
+                               words=$1
+                               ;;
+        -n | --numbers )       shift
+                               numbers=$1
+                               ;;
+        -c | --complex )       shift
+                               complex_length=$1
+                               ;;
+        -u | --uppercase )     include_uppercase=1
+                               ;;
+        -l | --lowercase )     include_lowercase=1
+                               ;;
+        -s | --special )       include_special=1
+                               ;;
+        -h | --help )          usage
+                               exit
+                               ;;
+        * )                    usage
+                               exit 1
+    esac
+    shift
+done
 
-# Funktion um einfaches Passwort zu generieren gemäss Herr Ruetimann 2Wörter + Zahlen
-function generate_simple_password() {
-    local word_count=$1
-    local num_count=$2
-    local words=("Apfel" "Banane" "Kirsche" "Orange" "Erdbeere" "Himbeere" "Blaubeere")
-    local password=""
-    for ((i=0; i<$word_count; i++)); do
-        password+="${words[$((RANDOM % ${#words[@]}))]}"
-    done
-    for ((i=0; i<$num_count; i++)); do
-        password+="$((RANDOM%9000+1000))"
-    done
-    echo "$password"
+function EinfachesPasswort {
+    words=("Apfel" "Banane" "Kirsche" "Orange" "Erdbeere" "Himbeere" "Blaubeere")
+    password="${words[$((RANDOM % ${#words[@]}))]}$((RANDOM%9000+1000))"
+    echo "Einfaches Passwort: $password"
 }
 
-# Funktion um komplexes Passwort zu generieren 
 function generate_complex_password() {
     local length=$1
     local chars=""
@@ -39,16 +55,12 @@ function generate_complex_password() {
     echo "$password"
 }
 
-
 function generate_horse_staple_password() {
     local word_count=$1
-    local words=("Apfel" "Banane" "Kirsche" "Orange" "Erdbeere" "Himbeere" "Blaubeere")
-    local password=""
-    for ((i=0; i<$word_count; i++)); do
-        password+="${words[$((RANDOM % ${#words[@]}))]}"
-    done
-    echo "$password"
+    local words=$(sort -R words.txt | head -n $word_count | tr '\n' ' ')
+    echo "${words// /}"
 }
+
 
 if [[ $# -eq 0 ]]; then
     echo "Bitte wähle eine Option:
@@ -79,7 +91,7 @@ else
     if [[ ! -z $words && ! -z $numbers ]]; then
         password=$(generate_simple_password $words $numbers)
     elif [[ ! -z $complex_length ]]; then
-     include_uppercase=${include_uppercase:-0}
+        include_uppercase=${include_uppercase:-0}
         include_lowercase=${include_lowercase:-0}
         include_special=${include_special:-0}
         password=$(generate_complex_password $complex_length)
