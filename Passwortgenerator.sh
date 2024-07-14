@@ -14,7 +14,7 @@ usage() {
   exit 1
 }
 
-# Funktion um einfaches Passwort zu generieren gemäss Herr Ruetimann 2Wörter + Zahlen
+# Funktion um einfaches Passwort zu generieren gemäss Herr Ruetimann 2 Wörter + Zahlen
 function generate_simple_password() {
     local word_count=$1
     local num_count=$2
